@@ -8,7 +8,7 @@ import { Couleur, defaultColors } from '../assets/defaulColors';
 })
 export class AppComponent {
 
-  selectedColor : any = "#e3f2fd";
+  selectedColor : any = null;
   palette : Array<Couleur> = defaultColors;
   excludedColors : Array<string> =["#FFEBEE", "#FFCDD2", "#ECEFF1"];
 
