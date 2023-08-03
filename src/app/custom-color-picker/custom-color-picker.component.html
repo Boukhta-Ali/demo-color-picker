@@ -1,0 +1,9 @@
+<div>
+  <ngx-colors ngx-colors-trigger
+              [(ngModel)]="selectedColor"
+              [palette]="colorPalette"
+              [hideColorPicker]="true"
+              [hideTextInput]="true"
+              (change)="onChange($event)"
+  ></ngx-colors>
+</div>

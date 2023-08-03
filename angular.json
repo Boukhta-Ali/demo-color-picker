@@ -102,5 +102,8 @@
       }
     }
   },
-  "defaultProject": "demo-color-picker"
+  "defaultProject": "demo-color-picker",
+  "cli": {
+    "analytics": "7cff8d81-c2dd-48b5-a51f-ed552806e285"
+  }
 }
